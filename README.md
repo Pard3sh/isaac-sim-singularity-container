@@ -2,13 +2,13 @@
 This repo contains the instructions on creating a singularity container on the SCC that supports Nvidia Isaac Sim functionality.
 
 
-# April 18, 2025
-# Research Computing Services
-# rcs.bu.edu
+Created on April 18, 2025
+Research Computing Services
+rcs.bu.edu
 
-# Step 1. Convert the Docker container to Singularity
+## Step 1. Convert the Docker container to Singularity
 
-# Get an OnDemand Desktop or ssh to a login node.
+Get an OnDemand Desktop or ssh to a login node.
 
 ```
 # connect to scc-i01. This is a compute node that is
@@ -37,7 +37,7 @@ exit
 ```
 
 
-# Step 2. Request a GPU OnDemand session
+## Step 2. Request a GPU OnDemand session
 
 ```
 # In the OnDemand Desktop form select 1 GPU and a compute
